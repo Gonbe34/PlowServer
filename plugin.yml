@@ -1,0 +1,105 @@
+name: PlowServer
+main: PlowServer\Leader
+version: 0.0.1
+api: [1.0.0]
+load: STARTUP
+author: Gonbe34
+authors: [Gonbe34]
+description: Plugin that included in the biggest PVP server in Japan
+website: http://plow.mcpe.jp/
+commands:
+ test:
+  description: do not use this
+  usage: "/test"
+  permission: plow.command.test
+ test2:
+  description: do not use this
+  usage: "/test"
+  permission: plow.command.test
+ ct:
+  description: Show Your team
+  usage: "/ct"
+  permission: plow.command.guest
+ cp:
+  description: Confirm point ranking
+  usage: "/cp"
+  permission: plow.command.guest
+ ck:
+  description: Confirm kill ranking
+  usage: "/ck"
+  permission: plow.command.guest
+ cpl:
+  description: Confirm plow ranking
+  usage: "/cpl"
+  permission: plow.command.guest
+ sta:
+  description: Check my status
+  usage: "/sta (player)"
+  permission: plow.command.guest
+ buy:
+  description: buying item
+  usage: "/buy <page> or /buy <type>"
+  permission: plow.command.guest
+ abi:
+  description: Check or set tribe
+  usage: "/abi or /abi <ability-name>"
+  permission: plow.command.guest
+ get:
+  description: Get some stuff
+  usage: "/get <code>"
+  permission: plow.command.guest
+ exp:
+  description: Point to EXP
+  usage: "/exp <point>"
+  permission: plow.command.guest
+ info:
+  description: Search player by IP
+  usage: "/info <ip>"
+  permission: plow.command.admin
+ givep:
+  description: give point to player
+  usage: "/givep <point>"
+  permission: plow.command.admin
+ givet:
+  description: give rtibe to player
+  usage: "/givet <player> <titlename>"
+  permission: plow.command.admin
+ gend:
+  description: forces game end
+  usage: "/givep <point>"
+  permission: plow.command.admin
+ gready:
+  description: start game
+  usage: "/gready"
+  permission: plow.command.admin
+ updata:
+  description: Account data upload
+  usage: "/up"
+  permission: plow.command.admin
+ core:
+  description: Puts Core
+  permission: plow.command.admin
+ del:
+  description: Delete account
+  permission: plow.command.admin
+ cload:
+  description: settings file reload
+  permission: plow.command.admin
+permissions:
+ plow:
+  default: op
+  description: "王になれるよ"
+  children:
+   plow.command:
+    default: op
+    description: "管理用コマンド"
+    children:
+     plow.command.guest:
+      default: true
+      description: "一般ゲストがつかえる"
+     plow.command.admin:
+      default: op
+      description: "一般ゲストがつかえる"
+     plow.command.test:
+      default: op
+      description: "テスト用"
