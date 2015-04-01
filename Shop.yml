@@ -1,0 +1,93 @@
+---
+- - ' StoneSword'
+  - 272
+  - 3
+  - 1
+  - Gen: 0
+    Atk: 0
+    Int: 5
+  - ss
+- - ' Beef'
+  - 364
+  - 3
+  - 2
+  - Gen: 0
+    Atk: 0
+    Int: 0
+    Def: 0
+    Ope: 0
+  - be
+- - ' IronSword'
+  - 79
+  - 40
+  - 1
+  - Int: 4
+    Def: 12
+  - is
+- - ' DiamondSword'
+  - 276
+  - 15
+  - 1
+  - Atk: 5
+  - ds
+- - ' IronPickaxe'
+  - 257
+  - 3
+  - 1
+  - Gen: 3
+    Atk: 15
+    Def: 3
+    Int: 0
+  - ip
+- - TNT
+  - 46
+  - 5
+  - 2
+  - Gen: 1
+    Atk: 2
+    Def: 5
+    Int: 2
+  - tnt
+- - ' FlintAndSteel'
+  - 259
+  - 5
+  - 1
+  - Gen: 2
+    Atk: 2
+    Def: 5
+    Int: 2
+  - fs
+- - Ice
+  - 79
+  - 40
+  - 1
+  - Int: 8
+    Def: 12
+  - ice
+- - Sponge
+  - 19
+  - 5
+  - 1
+  - Int: 2
+    Def: 5
+  - spo
+- - ' Wheat'
+  - 296
+  - 3
+  - 1
+  - Gen: 2
+    Def: 0
+  - wh
+- - Compass
+  - 345
+  - 4
+  - 1
+  - Ope: 0
+  - com
+- - String
+  - 287
+  - 3
+  - 2
+  - Int: 5
+  - st
+...
